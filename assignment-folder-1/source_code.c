@@ -37,7 +37,7 @@ int main(){
             printf("%d ",a[i]);
         }
     }
-    printf("\nSorted array in decending order is: ");
+    printf("\nSorted array in descending order is: ");
     for(int i=n-1; i>=0; i--){
         printf("%d ",a[i]);
     }
