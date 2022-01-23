@@ -4,7 +4,7 @@
 |   Enrollment No.  |   Name                 | GithubId        |
 |   --------------  |   -------------------- | ----------------|
 |    IEC2021063     |   Javesh Lodha         | javesshhh       |
-|    IEC2021064     |   Yash Gupta | mohan   | yashg-116       |
+|    IEC2021064     |   Yash Gupta           | yashg-116       |
 |    IEC2021065     |   Shashi Kumar Chaubey | humbleshashi8104|
 |    IEC2021066     |   Pavitra Pandey       | pvtrpndy        |
 
@@ -22,21 +22,22 @@ Sorting arrays into ascending or descending order, and printing the odd and even
 ---
 ## How to use code
 Here is a simpled way to download and run the code 
-```
 #Download project
+```
 git clone https://github.com/pvtrpndy/ITP-2022.git 
 ```
 Project Initialize 
 ```
 cd assignment-folder-1
-
-
 ```
 ---
 
 Run the code
 ```
 gcc source_code.c
+```
+```
+./source_code.exe
 ```
 
 **Test case**
@@ -89,9 +90,10 @@ We will use bubble sort to sort the array. The length of array is n.
 **Time Complexity**
 
 A quick and simplified answer is that we will be iterating the loop over n(n-1) times, so the time complexity of the code would depend on the n^2, where n is the number of elements in the array. 
+---
 ![alt text](https://cdn.discordapp.com/attachments/871004332294815744/934777228531740672/unknown.png)
 
-
+---
 
 ### References
 https://www.geeksforgeeks.org
