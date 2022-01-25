@@ -1,3 +1,5 @@
+//Sorting arrays into ascending or descending order, and printing the odd and even elements separately.
+
 #include <stdio.h>
 int main(){
     printf("Enter the number of elements to sort\n");
