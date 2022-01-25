@@ -7,12 +7,12 @@ int main(){
     scanf("%d", &n); 
     int a[n]; 
     printf("\nEnter the elements to sort\n");
-    for(int i=0; i<n; i++){
+    for(int i=0; i<=n-1; i++){
         scanf("%d", &a[i]);
     }
     int count = 0,c;
-    for(int i=1; i<n; i++){
-        for(int j=0; j<n-i; j++){
+    for(int i=1; i<=n-1; i++){
+        for(int j=0; j<=n-i-1; j++){
             if(a[j]>a[j+1]){
                 c = a[j];
                 a[j] = a[j+1];
